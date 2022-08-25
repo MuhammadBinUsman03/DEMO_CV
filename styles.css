@@ -1,0 +1,125 @@
+/***************************TAG SELECTORS ******************************/
+body{
+    background-color:#D5D8DC ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+    height: 3px;
+    background-color: #E74C3C;
+    border-color: #E74C3C;
+}
+h1{
+    font-size: 2.35vw;
+}
+h2{
+    font-size: 1.76vw;
+}
+p{
+    font-size: 1.14vw;
+}
+pre{
+    font-size: 0.95vw;
+}
+td{
+    font-size: 1.18vw;
+}
+/****************************** CLASS SELECTORS ******************************/
+.Container{
+    background-image: url("Images/techi.png"),url("Images/tech.png");
+    background-repeat: no-repeat,contain;
+    background-size: 1866px 500px,650px 400px;
+    background-color: rgba(44, 62, 80, 1);
+    color: #F0F3F4;
+    /* background-position: 0px 100px; */
+}
+.neo{
+    background-color: rgba(44, 62, 80, 0.2);
+    /* to avoid discontinuity of background image */
+}
+.Input{
+    background-color: rgba(93, 109, 126, 0.4);
+    color: #F0F3F4;
+    border-radius: 7px;
+}
+.contact{
+    font-weight: 500;
+    text-align: right;
+    color: #F0F3F4;
+}
+.contactimage:hover{
+    /* border: 3px #F0F3F4;
+    border-style:  none none solid ; */
+    border-radius: 100%;
+    background: #E74C3C;
+}
+.lop:hover{
+    color: #E74C3C;
+
+}
+
+/* for custom checkboxes */
+.check{
+	display: none;
+}
+.check + label {
+	background-color: rgba(93, 109, 126, 0.3);
+	border: 1px inset gray;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 7px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+}
+
+.check + label:active, .check:checked + label:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+/* after checked state */
+.check:checked + label {
+	background-color: rgba(93, 109, 126, 1);
+	border: 1px inset gray;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+}
+/* checkmark */
+.check:checked + label:after {
+	content: '\2714';
+	font-size: 14px;
+	position: absolute;
+	top: -3px;
+	left: 2px;
+	color: #F0F3F4;
+}
+/****************************** ID Selectors ******************************/
+#description{
+    border-style: inset;
+    border-width: 2px;
+}
+#Submit{
+    border: 1px solid #F0F3F4;
+}
+#Submit:hover{
+    border: 1px solid #F0F3F4;
+    background: #E74C3C;
+}
+#me{
+    height: 200px;
+    width: 200px;
+    border:5px solid #F0F3F4;
+    border-radius: 105px;
+}
+#linkedin{
+    height: 35px;
+    width: 35px;
+}
+#git{
+    height: 42px;
+    width: 42px;
+}
+#email{
+    height: 36px;
+    width: 36px;
+}
+#cell{
+    height: 38px;
+    width: 38px;
+}
